@@ -3,14 +3,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:theme="@android:style/Theme.Material.Light.NoActionBar"
-        android:label="المشكاة"
-        android:usesCleartextTraffic="false"
         android:allowBackup="false"
-        android:supportsRtl="true">
+        android:label="المشكاة"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Material.Light.NoActionBar">
 
         <activity
-            android:name=".MainActivity"
+            android:name="org.mishkat.app.MainActivity"
             android:exported="true">
 
             <intent-filter>
@@ -19,5 +18,7 @@
             </intent-filter>
 
         </activity>
+
     </application>
+
 </manifest>
